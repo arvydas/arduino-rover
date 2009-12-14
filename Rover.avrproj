@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<Project>
+    <DirPath>Z:\Programming\arduino\rover</DirPath>
+    <HasBeenConfigged>true</HasBeenConfigged>
+    <Device>atmega1280</Device>
+    <ClockFreq>16000000.00</ClockFreq>
+    <LinkerOpt />
+    <OtherOpt>-Wall -gdwarf-2 -std=gnu99</OtherOpt>
+    <OtherOptionsForC>-std=gnu99</OtherOptionsForC>
+    <OtherOptionsForCPP>-std=c99</OtherOptionsForCPP>
+    <OtherOptionsForS />
+    <OutputDir>output</OutputDir>
+    <Optimization>-Os</Optimization>
+    <UseInitStack>false</UseInitStack>
+    <InitStackAddr>0xFFFF</InitStackAddr>
+    <PackStructs>true</PackStructs>
+    <ShortEnums>true</ShortEnums>
+    <UnsignedBitfields>true</UnsignedBitfields>
+    <UnsignedChars>true</UnsignedChars>
+    <FunctionSections>true</FunctionSections>
+    <DataSections>true</DataSections>
+    <IncludeDirList>
+        <DirPath>C:\Program Files\AVRProjectIDE\arduino\core</DirPath>
+        <DirPath>C:\Program Files\AVRProjectIDE\arduino\libraries\Servo</DirPath>
+    </IncludeDirList>
+    <LibraryDirList>
+        <DirPath>C:\Program Files\AVRProjectIDE\arduino\libraries</DirPath>
+    </LibraryDirList>
+    <LinkObjList />
+    <LinkLibList>
+        <Lib>libm.a</Lib>
+        <Lib>libc.a</Lib>
+        <Lib>libobjc.a</Lib>
+    </LinkLibList>
+    <MemorySegList />
+    <BurnPart>atmega1280</BurnPart>
+    <BurnProgrammer>stk500</BurnProgrammer>
+    <BurnOptions />
+    <BurnPort>COM1</BurnPort>
+    <BurnFuseBox>-U lfuse:w:0xff:m -U hfuse:w:0xda:m -U efuse:w:0xf5:m</BurnFuseBox>
+    <BurnBaud>57600</BurnBaud>
+    <BurnAutoReset>true</BurnAutoReset>
+    <LastFile>Robot.pde</LastFile>
+    <FileList>
+        <File>
+            <AbsPath>Z:\Programming\arduino\rover\Robot.pde</AbsPath>
+            <RelPath>Robot.pde</RelPath>
+            <ToCompile>true</ToCompile>
+            <Options />
+            <WasOpen>true</WasOpen>
+            <CursorPos>357</CursorPos>
+            <Bookmarks />
+        </File>
+        <File>
+            <AbsPath>Z:\Programming\arduino\rover\Chassis.cpp</AbsPath>
+            <RelPath>Chassis.cpp</RelPath>
+            <ToCompile>true</ToCompile>
+            <Options />
+            <WasOpen>false</WasOpen>
+            <CursorPos>2007</CursorPos>
+            <Bookmarks />
+        </File>
+        <File>
+            <AbsPath>Z:\Programming\arduino\rover\Chassis.h</AbsPath>
+            <RelPath>Chassis.h</RelPath>
+            <ToCompile>false</ToCompile>
+            <Options />
+            <WasOpen>false</WasOpen>
+            <CursorPos>518</CursorPos>
+            <Bookmarks />
+        </File>
+        <File>
+            <AbsPath>Z:\Programming\arduino\rover\RangeFinder.cpp</AbsPath>
+            <RelPath>RangeFinder.cpp</RelPath>
+            <ToCompile>true</ToCompile>
+            <Options />
+            <WasOpen>false</WasOpen>
+            <CursorPos>832</CursorPos>
+            <Bookmarks />
+        </File>
+        <File>
+            <AbsPath>Z:\Programming\arduino\rover\RangeFinder.h</AbsPath>
+            <RelPath>RangeFinder.h</RelPath>
+            <ToCompile>false</ToCompile>
+            <Options />
+            <WasOpen>false</WasOpen>
+            <CursorPos>0</CursorPos>
+            <Bookmarks />
+        </File>
+        <File>
+            <AbsPath>Z:\Programming\arduino\rover\LED.cpp</AbsPath>
+            <RelPath>LED.cpp</RelPath>
+            <ToCompile>true</ToCompile>
+            <Options />
+            <WasOpen>false</WasOpen>
+            <CursorPos>0</CursorPos>
+            <Bookmarks />
+        </File>
+        <File>
+            <AbsPath>Z:\Programming\arduino\rover\LED.h</AbsPath>
+            <RelPath>LED.h</RelPath>
+            <ToCompile>false</ToCompile>
+            <Options />
+            <WasOpen>false</WasOpen>
+            <CursorPos>0</CursorPos>
+            <Bookmarks />
+        </File>
+        <File>
+            <AbsPath>Z:\Programming\arduino\rover\Head.cpp</AbsPath>
+            <RelPath>Head.cpp</RelPath>
+            <ToCompile>true</ToCompile>
+            <Options />
+            <WasOpen>false</WasOpen>
+            <CursorPos>1865</CursorPos>
+            <Bookmarks />
+        </File>
+        <File>
+            <AbsPath>Z:\Programming\arduino\rover\Head.h</AbsPath>
+            <RelPath>Head.h</RelPath>
+            <ToCompile>false</ToCompile>
+            <Options />
+            <WasOpen>false</WasOpen>
+            <CursorPos>477</CursorPos>
+            <Bookmarks />
+        </File>
+    </FileList>
+    <AVRStudioXMLStuff />
+</Project>
